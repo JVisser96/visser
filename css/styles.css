@@ -208,7 +208,6 @@ body{
 
 
 .menuItem{
-	display: none;
 	position: fixed;
 	left: .5%;
 	width: 14%;
