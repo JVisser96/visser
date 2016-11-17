@@ -112,14 +112,14 @@ var navTester = true;
 			console.log(webTop);
 
 			if(height <= webTop) {
-				$("#body").animate({"background-color" : "#d0d0d0"}, 1000);
+				$("#body").stop().animate({"background-color" : "#d0d0d0"}, 1000);
 				$(".navLines").animate({"background-color" : "#737373"}, 1000);
 				$(".span").stop().animate({"background-color" : "#737373"}, 300);
 				
 			} 
 			
 			if(height >= (webTop - 400)) {
-				$("#body").animate({"background-color" : "#272727"}, 1000);
+				$("#body").stop().animate({"background-color" : "#272727"}, 1000);
 				$(".navLines").animate({"background-color" : "#ffffff"}, 1000);
 				$(".span").stop().animate({"background-color" : "#ffffff"}, 300);
 			}
